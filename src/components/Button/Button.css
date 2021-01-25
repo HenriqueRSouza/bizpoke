@@ -1,0 +1,86 @@
+:root {
+    --primary: #fff;
+    --roxo: #674896;
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+/*Styles Button*/
+.btn--primary {
+    background-color: var(--primary);
+    color: #242424;
+    border: 1px solid var(--primary);
+}
+
+.btn--outline {
+    background-color: transparent;
+    color: white;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition:  all 0.3 ease-out;
+}
+/*Tamanho*/
+.btn--medium{
+    padding: 8px 20px;
+    font-size: 20px;
+}
+
+.btn--large {
+    padding: 12px 26px;
+    font-size: 28px;
+}
+/*Transição*/
+.btn--medium:hover, 
+.btn--large:hover,
+.btn--outline:hover{
+    background: white;
+    color: #242424;
+    transform: 250ms;
+    transition:  all 0.3 ease-out;
+}
+
+.button {
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.button--primary {
+    background-color: var(--primary);
+    color: #242424;
+    border: 1px solid var(--primary);
+}
+
+.button--outline {
+    background-color: transparent;
+    color: white;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition:  all 0.3 ease-out;
+}
+/*Tamanho*/
+.button--medium{
+    padding: 8px 20px;
+    font-size: 20px;
+}
+
+.button--large {
+    padding: 12px 26px;
+    font-size: 28px;
+}
+/*Transição*/
+.button--medium:hover, 
+.button--large:hover,
+.button--outline:hover{
+    background:#674896;
+    color: white;
+    transform: 250ms;
+    transition:  all 0.3 ease-out;
+}

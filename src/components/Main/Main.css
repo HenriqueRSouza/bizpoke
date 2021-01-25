@@ -1,0 +1,70 @@
+.logo{
+    height: 100%;
+}
+.todo{
+    width: 100%;
+    background: #fbfbfd;
+    height: 70vh;
+
+    color: black;
+
+    padding: 50px 0px 50px 0px ;
+}
+
+.movi-present h1{
+    color: black;
+    font-size: 3.5rem;
+}
+.movi-present a{
+    color: blue;
+    font-size: 1.6rem;
+}
+
+.movi{
+    width: 100%;
+    background: black;
+    height: 60vh;
+
+    color: #fbfbfd;
+
+    padding: 50px 0px 50px 0px ;
+}
+
+.movi-text{
+    width: 40%;
+    align-items: center;
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 20px 0px 0 0 ;
+
+}
+.movi-text h1{
+    font-size: 3.5rem;
+}
+.movi-text p{
+    font-size: 20px;
+    margin-top: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.movi-text a{
+    font-size: 18px;
+    margin-top: 2.5rem;
+    color: blue;
+    font-size: 1.6rem;
+}
+
+.movi-present{
+    width: 40%;
+    align-items: center;
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 20px 0px 0 0 ;
+}
+
