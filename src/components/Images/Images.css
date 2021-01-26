@@ -1,8 +1,8 @@
 .images-container{
     background: #674896;
     width: 100%;
-    height: 70vh;
-    
+    height: 95vh;
+    border-bottom: white solid 12px;
 }
 
 .text-image h1{
@@ -11,17 +11,19 @@
     padding: 5rem 0 0 0 ;
 }
 
-.images{
+.text-image{
+    width: 100%;
     display: grid;
     
     grid-template-columns: repeat(6, 1fr);
-    column-gap: 1.6rem;
+    column-gap: 1.5rem;
 
+    align-items: center;
 }
-.images img{
+.text-image img{
     width: 30vh;
     height: 30vh;
     align-items: center;
-    margin: 7rem 24px 0;
-    border-radius: 2rem;
+    margin: 0;
+    border-radius: 1rem;
 }

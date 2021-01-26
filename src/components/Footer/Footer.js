@@ -2,8 +2,8 @@ import React from 'react';
 import './Footer.css';
 import { Button } from '../Button/Button';
 import { Link } from 'react-router-dom';
-import Logo from '../logo-nav.png';
-import Honey from '../honey.PNG';
+import Logo from '../assets/Logos/logo-nav.png';
+import Honey from './honey.PNG';
 
 function Footer() {
   return (
