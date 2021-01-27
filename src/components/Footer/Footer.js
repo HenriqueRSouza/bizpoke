@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 import Logo from '../assets/Logos/logo-nav.png';
 import Honey from './honey.PNG';
 
-function Footer() {
+const Footer = () => {
   return (
     <div className='footer-container'>
-      <div class='footer-text'>
+      <div className='footer-text'>
 
         <div className='footer-text-wrapper'>
             <h2>Bizpoke</h2>
@@ -20,7 +20,7 @@ function Footer() {
           <div className="icons">
             <a href="https://www.google.com.br/maps/place/Av.+Nove+de+Julho,+765+-+Jardim+Apolo,+S%C3%A3o+Jos%C3%A9+dos+Campos+-+SP,+12243-000/@-23.1995683,-45.897357,17z/data=!3m1!4b1!4m5!3m4!1s0x94cc4a7211dbf917:0xae5df08a5a83dc8d!8m2!3d-23.1995732!4d-45.8951683" className="maps">
               
-              <i class="fa fa-map-marker">
+              <i className="fa fa-map-marker">
                 <p>Av. Nove de Julho, 765 - 3º andar</p>
               </i>
               
@@ -29,7 +29,7 @@ function Footer() {
         <br></br>
 
             <a href="mailto:henriqueikesouza@gmail.com" className="email">
-              <i class="fa fa-envelope">
+              <i className="fa fa-envelope">
                 <p>info@bizpoke.com.br</p>
               </i>
             </a>
@@ -37,7 +37,7 @@ function Footer() {
         <br></br>
 
             <a className="telefone">
-              <i class="fa fa-phone">
+              <i className="fa fa-phone">
                 <p>(12) 3042-0252</p>
               </i>
             </a>
@@ -71,54 +71,54 @@ function Footer() {
         </div>
       </section>
 
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <div class='footer-logo'>
+      <section className='social-media'>
+        <div className='social-media-wrap'>
+          <div className='footer-logo'>
                 <Link to='/' className='logo'>
                     <img src={Logo} alt="logo"></img>
                 </Link>
           </div>
-          <small class='website-rights'>Bizpoke © 2020</small>
-          <div class='social-icons'>
+          <small className='website-rights'>Bizpoke © 2020</small>
+          <div className='social-icons'>
             <Link
-              class='social-icon-link facebook'
+              className='social-icon-link facebook'
               to='/'
               target='_blank'
               aria-label='Facebook'
             >
-              <i class='fab fa-facebook-f' />
+              <i className='fab fa-facebook-f' />
             </Link>
             <Link
-              class='social-icon-link instagram'
+              className='social-icon-link instagram'
               to='/'
               target='_blank'
               aria-label='Instagram'
             >
-              <i class='fab fa-instagram' />
+              <i className='fab fa-instagram' />
             </Link>
             <Link
-              class='social-icon-link youtube'
+              className='social-icon-link youtube'
               to='/'
               target='_blank'
               aria-label='Youtube'
             >
-              <i class='fab fa-youtube' />
+              <i className='fab fa-youtube' />
             </Link>
             <Link
-              class='social-icon-link twitter'
+              className='social-icon-link twitter'
               to='/'
               target='_blank'
               aria-label='Twitter'
             >
-              <i class='fab fa-twitter' />
+              <i className='fab fa-twitter' />
             </Link>
             <Link
-              class='social-icon-link twitter'
+              className='social-icon-link twitter'
               to='/'
               target='_blank'
               aria-label='LinkedIn'
             >
-              <i class='fab fa-linkedin' />
+              <i className='fab fa-linkedin' />
             </Link>
           </div>
         </div>
