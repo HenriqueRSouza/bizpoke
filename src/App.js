@@ -4,8 +4,9 @@ import './App.css';
 import Home from './components/pages/Home';
 import Navbar from "./components/Navbar/Navbar";
 
-
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import ImageSlider from "./components/Slider/ImageSlider";
+import { SliderData } from './components/Slider/SliderData';
 
 function App() {
   return (

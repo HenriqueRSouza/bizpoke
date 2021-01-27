@@ -11,7 +11,7 @@ function Footer() {
       <div class='footer-text'>
 
         <div className='footer-text-wrapper'>
-            <h2>Bispoke</h2>
+            <h2>Bizpoke</h2>
             <p>A Bizpoke é uma start-up focada em ajudar empresas a viabilizarem estratégias de negócio dinâmicas sobre operações em campo.</p>
             <p>Somos parceiros de negócio Honeywell e nossa equipe é treinada e certificada em desenvolvimento e implantação de soluções sobre plataforma Movilizer.</p> 
         </div>
